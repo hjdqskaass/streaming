@@ -30,7 +30,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Ticket To Order", "Order Now"];
-const statusTypes = [ 'watching', 'stream' ];
+const statusTypes = [ 'watching', 'streaming'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
